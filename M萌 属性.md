@@ -18,3 +18,6 @@
 		http://www.zhihu.com/question/28196296?sort=created  知乎爬P站
 			写个游戏恐怖类的爬虫软件
 2. 文档带bom和不带bom的区别
+
+##想画的角色
+1. 火影: 太子,雏田打蜜蜂那段,我罗
