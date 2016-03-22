@@ -18,6 +18,8 @@
 		http://www.zhihu.com/question/28196296?sort=created  知乎爬P站
 			写个游戏恐怖类的爬虫软件
 2. 文档带bom和不带bom的区别
+3. 根据阿里云接口查询a-z哪些简单域名可用
+4. 借用 http://panda.www.net.cn/cgi-bin/check.cgi?area_domain= 返回的xml返回更简单的json格式文档
 
 ##想画的角色
 1. 火影: 太子,雏田打蜜蜂那段,我罗
