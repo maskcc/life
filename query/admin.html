@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="lib/bootstrap.min.css">
+<link href="lib/style.css" rel="stylesheet" type="text/css" />
+<script src="lib/jquery.js" type="text/javascript"></script>
+<script src="lib/bootstrap.min.js"></script> 
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+</head>
+
+<body style="background-image: url(lib/bg.png)">
+<font color="white">
+<div class="mainframe">
+<div id="center">
+    <h3>用户管理系统</h3>
+    <Label for="adminName">用户名:</Label>
+    <input id="name" /> <br /><br />
+    <Label for="adminPasswd">密&nbsp;&nbsp;&nbsp;码:</Label>
+    <input type="password" id="passwd" /><br /><br />
+    
+    <button class="btn btn-primary" type="button" id="login">登录</button>
+    <p id="result"></p>
+
+    <script type="text/javascript">
+    $(function(){
+        var element = document.getElementById('name');
+        element.focus();
+        element.select();
+        $("#login").bind("click", function(){
+            $.post("http://localhost/query/admin.php",{
+                login: 0,
+                name: $("#name").val(),
+                passwd: $("#passwd").val()
+            },
+            function(data){
+                /*不能直接跳转,不然登陆就没什么用了...*/
+                if (data.success) {location.href = "http://localhost/query/control.html";}
+                $("#result").html(data.msg);
+            }
+            );
+        });
+
+
+    });
+
+
+
+
+
+
+    </script>
+</div>
+</div>
+
+
+
+</font>
+</body>
+<html>
