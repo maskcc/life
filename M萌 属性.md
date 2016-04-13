@@ -14,6 +14,7 @@
 ##动漫相关的想法
 1. 看动漫手机截图,下载每一部喜欢的bgm和喜欢的集数,喜欢的op&ed,记录喜欢的ost,喜欢的片段.
 2. 注册moe域名
+3. [初音所有歌曲](http://www.tsdm.net/forum.php?mod=viewthread&tid=478346&highlight=)[2](http://www.cngba.com/forum.php?mod=viewthread&tid=18966699&highlight=)
 
 ##想深入了解的技术知识
 1. 网络爬虫http://www.zhihu.com/question/27621722
